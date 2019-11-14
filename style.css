@@ -16,7 +16,7 @@
     
 }
 .back{
-    background-image: url(cr.jpg);
+    background-image: url(content/cr.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -118,7 +118,7 @@ td{
 /* partie commntaires*/
 .Testimonail{
    
-    background-image: url(cr3.jpg);
+    background-image: url(content/cr3.jpg);
     
     background-size: cover;
     
