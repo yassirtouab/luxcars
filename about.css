@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* bar menu */
+.menu{
+    width: 100%;
+    
+    background-color: white;
+    
+}
+.word{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    
+}
+.back{
+    background-image: url(ddd.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ul {    
+list-style-type: none;
+width: 60%;
+margin-left: 35%;
+}
+
+.buy{
+   display: inline-block;
+    font-size: 15px;
+   
+    font-family: sans-serif;
+    padding: 10px;
+    border: 0.5px black solid ;
+    border-radius: 25px;
+
+    
+    
+    background-color: white;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+   
+    font-family: 'montserrat', sans-serif;
+    
+}
+.logo{
+    padding: 10px;
+    
+    
+    font-size: 30px;
+    font-weight: bold;
+   
+    font-family: 'montserrat', sans-serif;
+    
+
+}
+.titre {
+    
+    width: 90%;
+   
+    
+}
+.titre h1
+{
+    text-align: center;
+    margin: 40px 0 30px 114px;
+
+    font-weight: BOLDER;
+    font-family: 'Montserrat',sans-serif;
+
+}
+.bar hr{
+    width:100px;
+    border: 1px black solid; 
+    background-color: white;
+    height: 5px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.bar{
+    margin-top: -15px;
+    margin-left: -10px;
+
+}
+.bar2 hr{
+    width: 152px;
+    border: 1px black solid;
+    background-color: black;
+    height: 2px;
+    margin: 5px 8px 10px 100px;
+    margin-top: 20px;
+    
+}
+.bar2{
+    margin-top: -23px;
+    margin-left: 216px;
+    width: 311px;
+}
+
+
+/* center body*/
+.center-place{
+    
+    width: 90%;
+    height:800px;
+    display: flex;
+    position: relative;
+}
+
+.Lplace{
+    background-image: url(ttt.jpg);
+    width: 100%;
+    
+    background-size: cover;
+    
+}
+.Rplace{
+    width: 100%;
+    margin-top: 91px;
+
+
+}
+.Rplace p,h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 38%;
+    margin-top: 10%;
+
+    
+}
+.Rplace p{
+    text-align: inherit;
+    margin-left: 316px;
+    margin-top: 37px;
+    
+
+}
+.Cplace{
+    
+    background-size: cover;
+    width: 35%;
+    height: 65%;
+
+    position: absolute;
+    left: 40%;
+    top:15%;
+    z-index: 1;
+}
+.Cplace img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* partie footer*/
+.foot{
+    width: 100%;
+}
+.foot img{
+    
+    width: 100%;
+    margin: auto;
+}
+.footer{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Montserrat',sans-serif;
+    margin-left: -2%;
+    margin-top: 3%;
+}
+.hr_bar{
+    width: 96px;
+    border: 1px black solid;
+    background-color: black;
+    height: 3px;
+    margin: 39px 49px 20px 350px;
+}
+.footer_header{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.bar3{
+    width: 100px;
+    border: 1px black solid;
+    background-color: black;
+    height: 3px;
+    margin: 9px 20px 40px 580px;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
