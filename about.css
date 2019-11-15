@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-/* bar menu */
+/***************************** bar menu *******************************/
 .menu{
     width: 100%;
     
@@ -29,22 +29,28 @@ width: 60%;
 margin-left: 35%;
 }
 
+li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
-
 .buy{
-   display: inline-block;
-    font-size: 15px;
-   
-    font-family: sans-serif;
-    padding: 10px;
-    border: 0.5px black solid ;
-    border-radius: 25px;
-    background-color: white;
-}
-
+    display: inline-block;
+     font-size: 15px;
+    
+     font-family: sans-serif;
+     padding: 10px;
+     border: 0.5px black solid ;
+     border-radius: 25px;
+     background-color: white;
+ }
+ 
 .buy:hover
 {
     background-color: black;
@@ -52,40 +58,25 @@ a{
     border-radius: 15px;
     transition: all 300ms ease-in-out;
 }
-
-li{
-    display: inline-block;
-    padding: 10px;
-    font-size: 20px;
-   
-    font-family: 'montserrat', sans-serif;
-    
-}
 .logo{
     padding: 10px;
-    
-    
     font-size: 30px;
     font-weight: bold;
-   
-    font-family: 'montserrat', sans-serif;
-    
-
+    font-family: 'Montserrat', sans-serif;
 }
+
+
+
+/*****************************  Title***********/
 .titre {
-    
-    width: 90%;
-   
-    
+    width: 90%;  
 }
 .titre h1
 {
     text-align: center;
     margin: 40px 0 30px 114px;
-
     font-weight: BOLDER;
     font-family: 'Montserrat',sans-serif;
-
 }
 .bar hr{
     width:100px;
@@ -93,14 +84,16 @@ li{
     background-color: white;
     height: 5px;
     margin: auto;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 .bar{
     margin-top: -15px;
     margin-left: -10px;
 
 }
+
+
+/*****************LUXCARS Tilte*******/
 .bar2 hr{
     width: 152px;
     border: 1px black solid;
@@ -117,7 +110,7 @@ li{
 }
 
 
-/* center body*/
+/************************** center body*****************/
 .center-place{
     
     width: 90%;
@@ -139,7 +132,7 @@ li{
 
 
 }
-.Rplace p,h1{
+.Rplace h1{
     text-align: center;
     font-weight: bolder;
     font-family: 'Montserrat',sans-serif;
@@ -149,11 +142,11 @@ li{
     
 }
 .Rplace p{
+    font-weight: bolder;
+    font-family: 'Montserrat',sans-serif;
     text-align: inherit;
     margin-left: 316px;
     margin-top: 37px;
-    
-
 }
 .Cplace{
     
@@ -177,7 +170,7 @@ li{
 
 
 
-/* partie footer*/
+/*********************** partie footer********************/
 .foot{
     width: 100%;
 }
@@ -193,13 +186,15 @@ li{
     margin-left: -2%;
     margin-top: 3%;
 }
+
+/*******
 .hr_bar{
     width: 96px;
     border: 1px black solid;
     background-color: black;
     height: 3px;
     margin: 39px 49px 20px 350px;
-}
+}********/
 .footer_header{
     text-align: center;
     font-weight: bolder;
