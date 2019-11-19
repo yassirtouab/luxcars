@@ -62,7 +62,7 @@ if(isset($_POST['send'])){
             <a href="home.html">home</a>
             <a href="#">contact</a>
             <a href="home.html#testimonials" >testimonials</a>
-            <a href="about.html">about</a>
+            <a href="about-us.html">about</a>
             <a href="home.html#buy">buy now</a>
           </div>
         </div>
