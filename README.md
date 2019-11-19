@@ -7,4 +7,4 @@
 4. adding more php functions for the statement
 *please note that you must open the project with local server like wampserver or xampp and don't forget to import contactus.sql to your phpmyadmin under contactus database name*
 #### in webframing 
-1- adding design folder with images
+1- adding Maquettage folder with images
